@@ -1,0 +1,12 @@
+BGL 5: Counter({'Normal': 607628, 'Anomalous': 57087}) : 10.64
+    - log event distinct id avg: 1.20
+Thunderbird 5: Counter({'Normal': 1225814, 'Anomalous': 174186}): 7.03
+    - log event distinct id avg: 3.24
+BGL 100: Counter({'Normal': 29748, 'Anomalous': 3488}): 8.52
+    - log event distinct id avg: 1.83
+Thunderbird 100: Counter({'Normal': 37712, 'Anomalous': 32288}): 1.16 
+    -  log event distinct id avg: 24.395
+
+
+
+

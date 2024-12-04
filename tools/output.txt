@@ -1,0 +1,4 @@
+name|age|city
+Alice|30|"Wonderland|City"""
+Bob|25|"Bob|City"""
+Charlie|35|"Charlie|City"""

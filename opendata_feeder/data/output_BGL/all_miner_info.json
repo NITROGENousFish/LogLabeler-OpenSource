@@ -1,0 +1,3218 @@
+[
+    {
+        "template": "instruction cache parity error corrected",
+        "size": 105924,
+        "is_anomaly": false,
+        "template_id": 1
+    },
+    {
+        "template": "MidplaneSwitchController performing bit sparing on <~*~> bit <~NUM~>",
+        "size": 964,
+        "is_anomaly": false,
+        "template_id": 2
+    },
+    {
+        "template": "generating core.<~NUM~>",
+        "size": 1706751,
+        "is_anomaly": false,
+        "template_id": 3
+    },
+    {
+        "template": "<~NUM~> ddr errors(s) detected and corrected on rank <~NUM~>, symbol <~NUM~>, bit <~NUM~>",
+        "size": 33939,
+        "is_anomaly": false,
+        "template_id": 4
+    },
+    {
+        "template": "<~NUM~> L3 <~*~> error(s) (dcr <~HEX~>) detected and corrected",
+        "size": 4978,
+        "is_anomaly": false,
+        "template_id": 5
+    },
+    {
+        "template": "<~HEXHASH~> sym <~NUM~>, at <~HEX~>, mask <~HEX~>",
+        "size": 201206,
+        "is_anomaly": false,
+        "template_id": 6
+    },
+    {
+        "template": "total of <~NUM~> ddr error(s) detected and corrected",
+        "size": 28485,
+        "is_anomaly": false,
+        "template_id": 7
+    },
+    {
+        "template": "ddr: activating redundant bit steering: rank=<~NUM~> symbol=<~NUM~>",
+        "size": 1314,
+        "is_anomaly": false,
+        "template_id": 8
+    },
+    {
+        "template": "ddr: excessive soft failures, consider replacing the card",
+        "size": 41,
+        "is_anomaly": false,
+        "template_id": 9
+    },
+    {
+        "template": "ciod: Error loading <~*~> invalid or missing program image, No such file or directory",
+        "size": 46416,
+        "is_anomaly": false,
+        "template_id": 10
+    },
+    {
+        "template": "<~NUM~> double-hummer alignment exceptions",
+        "size": 295764,
+        "is_anomaly": false,
+        "template_id": 11
+    },
+    {
+        "template": "<~NUM~> tree receiver <~NUM~> in re-synch state event(s) (dcr <~HEX~>) detected",
+        "size": 7847,
+        "is_anomaly": false,
+        "template_id": 12
+    },
+    {
+        "template": "idoproxydb has been started: $Name: <~*~> $ Input parameters: -enableflush -loguserinfo db.properties BlueGene1",
+        "size": 114,
+        "is_anomaly": false,
+        "template_id": 13
+    },
+    {
+        "template": "ciodb has been restarted.",
+        "size": 129,
+        "is_anomaly": false,
+        "template_id": 14
+    },
+    {
+        "template": "mmcs_db_server has been started: <~*~> --useDatabase BGL --dbproperties <~*~> --iolog <~PATH~> --reconnect-blocks all",
+        "size": 63,
+        "is_anomaly": false,
+        "template_id": 15
+    },
+    {
+        "template": "ciod: LOGIN <~*~> failed: No such file or directory",
+        "size": 43647,
+        "is_anomaly": false,
+        "template_id": 16
+    },
+    {
+        "template": "FATAL ciod: failed to read message prefix on control stream (CioStream socket to <~IP~>:<~NUM~>",
+        "size": 5983,
+        "is_anomaly": true,
+        "template_id": 17
+    },
+    {
+        "template": "FATAL data TLB error interrupt",
+        "size": 152734,
+        "is_anomaly": true,
+        "template_id": 18
+    },
+    {
+        "template": "instruction address: <~HEX~>",
+        "size": 51227,
+        "is_anomaly": false,
+        "template_id": 19
+    },
+    {
+        "template": "FATAL machine check interrupt",
+        "size": 161,
+        "is_anomaly": true,
+        "template_id": 20
+    },
+    {
+        "template": "machine check status register: <~HEX~>",
+        "size": 246,
+        "is_anomaly": false,
+        "template_id": 21
+    },
+    {
+        "template": "summary...........................<~NUM~>",
+        "size": 244,
+        "is_anomaly": false,
+        "template_id": 22
+    },
+    {
+        "template": "instruction plb error.............<~NUM~>",
+        "size": 298,
+        "is_anomaly": false,
+        "template_id": 23
+    },
+    {
+        "template": "data read plb error...............<~NUM~>",
+        "size": 297,
+        "is_anomaly": false,
+        "template_id": 24
+    },
+    {
+        "template": "data write plb error..............<~NUM~>",
+        "size": 296,
+        "is_anomaly": false,
+        "template_id": 25
+    },
+    {
+        "template": "tlb error.........................<~NUM~>",
+        "size": 296,
+        "is_anomaly": false,
+        "template_id": 26
+    },
+    {
+        "template": "i-cache parity error..............<~NUM~>",
+        "size": 296,
+        "is_anomaly": false,
+        "template_id": 27
+    },
+    {
+        "template": "d-cache search parity error.......<~NUM~>",
+        "size": 294,
+        "is_anomaly": false,
+        "template_id": 28
+    },
+    {
+        "template": "d-cache flush parity error........<~NUM~>",
+        "size": 294,
+        "is_anomaly": false,
+        "template_id": 29
+    },
+    {
+        "template": "imprecise machine check...........<~NUM~>",
+        "size": 289,
+        "is_anomaly": false,
+        "template_id": 30
+    },
+    {
+        "template": "machine state register: <~HEX~>",
+        "size": 8454,
+        "is_anomaly": false,
+        "template_id": 31
+    },
+    {
+        "template": "wait state enable.................<~NUM~>",
+        "size": 6745,
+        "is_anomaly": false,
+        "template_id": 32
+    },
+    {
+        "template": "critical input interrupt enable...<~NUM~>",
+        "size": 6559,
+        "is_anomaly": false,
+        "template_id": 33
+    },
+    {
+        "template": "external input interrupt enable...<~NUM~>",
+        "size": 6556,
+        "is_anomaly": false,
+        "template_id": 34
+    },
+    {
+        "template": "problem state (<~NUM~>=sup,<~NUM~>=usr).......<~NUM~>",
+        "size": 6546,
+        "is_anomaly": false,
+        "template_id": 35
+    },
+    {
+        "template": "floating point instr. enabled.....<~NUM~>",
+        "size": 6541,
+        "is_anomaly": false,
+        "template_id": 36
+    },
+    {
+        "template": "machine check enable..............<~NUM~>",
+        "size": 6538,
+        "is_anomaly": false,
+        "template_id": 37
+    },
+    {
+        "template": "floating pt ex mode <~NUM~> enable......<~NUM~>",
+        "size": 13044,
+        "is_anomaly": false,
+        "template_id": 38
+    },
+    {
+        "template": "debug wait enable.................<~NUM~>",
+        "size": 6524,
+        "is_anomaly": false,
+        "template_id": 39
+    },
+    {
+        "template": "debug interrupt enable............<~NUM~>",
+        "size": 6521,
+        "is_anomaly": false,
+        "template_id": 40
+    },
+    {
+        "template": "instruction address space.........<~NUM~>",
+        "size": 6506,
+        "is_anomaly": false,
+        "template_id": 41
+    },
+    {
+        "template": "data address space................<~NUM~>",
+        "size": 6503,
+        "is_anomaly": false,
+        "template_id": 42
+    },
+    {
+        "template": "core configuration register: <~HEX~>",
+        "size": 6431,
+        "is_anomaly": false,
+        "template_id": 43
+    },
+    {
+        "template": "disable store gathering..................<~NUM~>",
+        "size": 6495,
+        "is_anomaly": false,
+        "template_id": 44
+    },
+    {
+        "template": "disable apu instruction broadcast........<~NUM~>",
+        "size": 2396,
+        "is_anomaly": false,
+        "template_id": 45
+    },
+    {
+        "template": "disable trace broadcast..................<~NUM~>",
+        "size": 2393,
+        "is_anomaly": false,
+        "template_id": 46
+    },
+    {
+        "template": "guaranteed instruction cache block touch.<~NUM~>",
+        "size": 2390,
+        "is_anomaly": false,
+        "template_id": 47
+    },
+    {
+        "template": "guaranteed data cache block touch........<~NUM~>",
+        "size": 2389,
+        "is_anomaly": false,
+        "template_id": 48
+    },
+    {
+        "template": "force load/store alignment...............<~NUM~>",
+        "size": 2389,
+        "is_anomaly": false,
+        "template_id": 49
+    },
+    {
+        "template": "icache prefetch depth....................<~NUM~>",
+        "size": 2389,
+        "is_anomaly": false,
+        "template_id": 50
+    },
+    {
+        "template": "icache prefetch threshold................<~NUM~>",
+        "size": 2388,
+        "is_anomaly": false,
+        "template_id": 51
+    },
+    {
+        "template": "general purpose registers:",
+        "size": 2318,
+        "is_anomaly": false,
+        "template_id": 52
+    },
+    {
+        "template": "<~NUM~>:<~NUM~> <~NUM~>:<~8NUM~> <~NUM~>:<~8NUM~> <~NUM~>:<~NUM~>",
+        "size": 361,
+        "is_anomaly": false,
+        "template_id": 53
+    },
+    {
+        "template": "<~NUM~>:<~8NUM~> <~NUM~>:<~NUM~> <~NUM~>:<~NUM~> <~NUM~>:<~NUM~>",
+        "size": 2591,
+        "is_anomaly": false,
+        "template_id": 54
+    },
+    {
+        "template": "<~NUM~>:<~8NUM~> <~NUM~>:<~NUM~> <~NUM~>:<~8NUM~> <~NUM~>:<~NUM~>",
+        "size": 70,
+        "is_anomaly": false,
+        "template_id": 55
+    },
+    {
+        "template": "<~NUM~>:<~8NUM~> <~NUM~>:<~8NUM~> <~NUM~>:<~8NUM~> <~NUM~>:<~8NUM~>",
+        "size": 286,
+        "is_anomaly": false,
+        "template_id": 56
+    },
+    {
+        "template": "<~NUM~>:<~NUM~> <~NUM~>:<~NUM~> <~NUM~>:<~NUM~> <~NUM~>:<~NUM~>",
+        "size": 1649,
+        "is_anomaly": false,
+        "template_id": 57
+    },
+    {
+        "template": "<~NUM~>:<~NUM~> <~NUM~>:<~NUM~> <~NUM~>:<~NUM~> <~NUM~>:<~8NUM~>",
+        "size": 84,
+        "is_anomaly": false,
+        "template_id": 58
+    },
+    {
+        "template": "special purpose registers:",
+        "size": 2316,
+        "is_anomaly": false,
+        "template_id": 59
+    },
+    {
+        "template": "lr:<~8NUM~> cr:<~NUM~> xer:<~NUM~> ctr:<~8NUM~>",
+        "size": 157,
+        "is_anomaly": false,
+        "template_id": 60
+    },
+    {
+        "template": "FATAL rts panic! - stopping execution",
+        "size": 3983,
+        "is_anomaly": true,
+        "template_id": 61
+    },
+    {
+        "template": "<~NUM~> torus receiver <~*~> input pipe error(s) (dcr <~HEX~>) detected and corrected",
+        "size": 10487,
+        "is_anomaly": false,
+        "template_id": 62
+    },
+    {
+        "template": "data address: <~HEX~>",
+        "size": 14499,
+        "is_anomaly": false,
+        "template_id": 63
+    },
+    {
+        "template": "<~NUM~>:<~NUM~> <~NUM~>:<~8NUM~> <~NUM~>:<~8NUM~> <~NUM~>:<~8NUM~>",
+        "size": 4366,
+        "is_anomaly": false,
+        "template_id": 64
+    },
+    {
+        "template": "<~NUM~>:<~8NUM~> <~NUM~>:<~8NUM~> <~NUM~>:<~8NUM~> <~NUM~>:<~NUM~>",
+        "size": 153,
+        "is_anomaly": false,
+        "template_id": 65
+    },
+    {
+        "template": "<~NUM~>:<~8NUM~> <~NUM~>:<~NUM~> <~NUM~>:<~NUM~> <~NUM~>:<~8NUM~>",
+        "size": 117,
+        "is_anomaly": false,
+        "template_id": 66
+    },
+    {
+        "template": "<~NUM~>:<~NUM~> <~NUM~>:<~NUM~> <~NUM~>:<~8NUM~> <~NUM~>:<~8NUM~>",
+        "size": 148,
+        "is_anomaly": false,
+        "template_id": 67
+    },
+    {
+        "template": "<~NUM~>:<~NUM~> <~NUM~>:<~8NUM~> <~NUM~>:<~NUM~> <~NUM~>:<~8NUM~>",
+        "size": 63,
+        "is_anomaly": false,
+        "template_id": 68
+    },
+    {
+        "template": "<~NUM~>:<~NUM~> <~NUM~>:<~8NUM~> <~NUM~>:<~NUM~> <~NUM~>:<~NUM~>",
+        "size": 2206,
+        "is_anomaly": false,
+        "template_id": 69
+    },
+    {
+        "template": "rts internal error",
+        "size": 2187,
+        "is_anomaly": false,
+        "template_id": 70
+    },
+    {
+        "template": "<~NUM~>:<~8NUM~> <~NUM~>:<~NUM~> <~NUM~>:<~8NUM~> <~NUM~>:<~8NUM~>",
+        "size": 4228,
+        "is_anomaly": false,
+        "template_id": 71
+    },
+    {
+        "template": "ciod: Message code <~NUM~> is not <~NUM~> or <~NUM~>",
+        "size": 2278,
+        "is_anomaly": false,
+        "template_id": 72
+    },
+    {
+        "template": "ciod: pollControlDescriptors: Detected the debugger died.",
+        "size": 6443,
+        "is_anomaly": false,
+        "template_id": 73
+    },
+    {
+        "template": "ciod: for node <~NUM~>, read continuation request but ioState is <~NUM~>",
+        "size": 395,
+        "is_anomaly": false,
+        "template_id": 74
+    },
+    {
+        "template": "ciod: cpu <~NUM~> at treeaddr <~NUM~> sent unrecognized message <~HEX~>",
+        "size": 2569,
+        "is_anomaly": false,
+        "template_id": 75
+    },
+    {
+        "template": "FATAL machine check interrupt (bit=<~HEX~>): L2 dcache unit data parity error",
+        "size": 49,
+        "is_anomaly": true,
+        "template_id": 76
+    },
+    {
+        "template": "<~NUM~>:<~8NUM~> <~NUM~>:<~8NUM~> <~NUM~>:<~NUM~> <~NUM~>:<~8NUM~>",
+        "size": 67,
+        "is_anomaly": false,
+        "template_id": 77
+    },
+    {
+        "template": "<~NUM~>:<~NUM~> <~NUM~>:<~NUM~> <~NUM~>:<~8NUM~> <~NUM~>:<~NUM~>",
+        "size": 62,
+        "is_anomaly": false,
+        "template_id": 78
+    },
+    {
+        "template": "lr:<~8NUM~> cr:<~NUM~> xer:<~NUM~> ctr:<~NUM~>",
+        "size": 2113,
+        "is_anomaly": false,
+        "template_id": 79
+    },
+    {
+        "template": "ciod: LOGIN <~*~> failed: Permission denied",
+        "size": 472,
+        "is_anomaly": false,
+        "template_id": 80
+    },
+    {
+        "template": "FATAL machine check interrupt (bit=<~HEX~>): L3 major internal error",
+        "size": 57,
+        "is_anomaly": true,
+        "template_id": 81
+    },
+    {
+        "template": "L3 global control register: <~HEX~>",
+        "size": 48,
+        "is_anomaly": false,
+        "template_id": 82
+    },
+    {
+        "template": "start initialization.....................<~NUM~>",
+        "size": 48,
+        "is_anomaly": false,
+        "template_id": 83
+    },
+    {
+        "template": "start retagging..........................<~NUM~>",
+        "size": 48,
+        "is_anomaly": false,
+        "template_id": 84
+    },
+    {
+        "template": "start flushing...........................<~NUM~>",
+        "size": 48,
+        "is_anomaly": false,
+        "template_id": 85
+    },
+    {
+        "template": "start prefetching........................<~NUM~>",
+        "size": 48,
+        "is_anomaly": false,
+        "template_id": 86
+    },
+    {
+        "template": "disable speculative access...............<~NUM~>",
+        "size": 48,
+        "is_anomaly": false,
+        "template_id": 87
+    },
+    {
+        "template": "close EDRAM pages as soon as possible....<~NUM~>",
+        "size": 48,
+        "is_anomaly": false,
+        "template_id": 88
+    },
+    {
+        "template": "size of scratchpad portion of L3.........<~NUM~> (0M)",
+        "size": 48,
+        "is_anomaly": false,
+        "template_id": 89
+    },
+    {
+        "template": "disable all access to cache directory....<~NUM~>",
+        "size": 48,
+        "is_anomaly": false,
+        "template_id": 90
+    },
+    {
+        "template": "write buffer commit threshold............<~NUM~>",
+        "size": 48,
+        "is_anomaly": false,
+        "template_id": 91
+    },
+    {
+        "template": "size of DDR we are caching...............<~NUM~> (512M)",
+        "size": 48,
+        "is_anomaly": false,
+        "template_id": 92
+    },
+    {
+        "template": "prefetch depth for core <~NUM~>................<~NUM~>",
+        "size": 96,
+        "is_anomaly": false,
+        "template_id": 93
+    },
+    {
+        "template": "prefetch depth for PLB slave.............<~NUM~>",
+        "size": 48,
+        "is_anomaly": false,
+        "template_id": 94
+    },
+    {
+        "template": "max number of outstanding prefetches.....<~NUM~>",
+        "size": 48,
+        "is_anomaly": false,
+        "template_id": 95
+    },
+    {
+        "template": "turn on hidden refreshes.................<~NUM~>",
+        "size": 48,
+        "is_anomaly": false,
+        "template_id": 96
+    },
+    {
+        "template": "disable write lines <~NUM~>:<~NUM~>..................<~NUM~>",
+        "size": 48,
+        "is_anomaly": false,
+        "template_id": 97
+    },
+    {
+        "template": "L3 ecc <~*~> register: <~NUM~>",
+        "size": 94,
+        "is_anomaly": false,
+        "template_id": 98
+    },
+    {
+        "template": "capture first directory <~*~> error address..<~NUM~>",
+        "size": 95,
+        "is_anomaly": false,
+        "template_id": 99
+    },
+    {
+        "template": "capture first EDRAM <~*~> error address..<~NUM~>",
+        "size": 141,
+        "is_anomaly": false,
+        "template_id": 100
+    },
+    {
+        "template": "capture first DDR uncorrectable error address..<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 101
+    },
+    {
+        "template": "disable flagging of DDR UE's as major internal error.<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 102
+    },
+    {
+        "template": "correctable error detected in directory <~NUM~>......<~NUM~>",
+        "size": 94,
+        "is_anomaly": false,
+        "template_id": 103
+    },
+    {
+        "template": "uncorrectable error detected in directory <~NUM~>....<~NUM~>",
+        "size": 94,
+        "is_anomaly": false,
+        "template_id": 104
+    },
+    {
+        "template": "correctable error detected in EDRAM bank <~NUM~>.....<~NUM~>",
+        "size": 94,
+        "is_anomaly": false,
+        "template_id": 105
+    },
+    {
+        "template": "uncorrectable error detected in EDRAM bank <~NUM~>...<~NUM~>",
+        "size": 94,
+        "is_anomaly": false,
+        "template_id": 106
+    },
+    {
+        "template": "parity error in bank <~NUM~>.........................<~NUM~>",
+        "size": 94,
+        "is_anomaly": false,
+        "template_id": 107
+    },
+    {
+        "template": "uncorrectable error detected in external DDR...<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 108
+    },
+    {
+        "template": "parity error in read queue <~*~>",
+        "size": 141,
+        "is_anomaly": false,
+        "template_id": 109
+    },
+    {
+        "template": "parity error in write buffer...................<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 110
+    },
+    {
+        "template": "number of correctable errors detected in L3 <~*~>",
+        "size": 94,
+        "is_anomaly": false,
+        "template_id": 111
+    },
+    {
+        "template": "interrupt threshold...<~NUM~>",
+        "size": 94,
+        "is_anomaly": false,
+        "template_id": 112
+    },
+    {
+        "template": "number of lines with parity errors written to L3 EDRAMs...<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 113
+    },
+    {
+        "template": "FATAL DDR machine check register: <~HEX~> <~HEX~>",
+        "size": 47,
+        "is_anomaly": true,
+        "template_id": 114
+    },
+    {
+        "template": "memory and bus summary...........................<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 115
+    },
+    {
+        "template": "command manager unit summary.....................<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 116
+    },
+    {
+        "template": "memory manager uncorrectable error...............<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 117
+    },
+    {
+        "template": "memory manager strobe gate.......................<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 118
+    },
+    {
+        "template": "memory manager address parity error..............<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 119
+    },
+    {
+        "template": "memory manager miscompare........................<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 120
+    },
+    {
+        "template": "memory manager address error.....................<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 121
+    },
+    {
+        "template": "memory manager store buffer parity...............<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 122
+    },
+    {
+        "template": "memory manager RMW buffer parity.................<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 123
+    },
+    {
+        "template": "memory manager refresh...........................<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 124
+    },
+    {
+        "template": "memory manager refresh counter timeout...........<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 125
+    },
+    {
+        "template": "memory manager refresh contention................<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 126
+    },
+    {
+        "template": "state machine....................................<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 127
+    },
+    {
+        "template": "memory manager / command manager address parity..<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 128
+    },
+    {
+        "template": "regctl scancom interface.........................<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 129
+    },
+    {
+        "template": "DDR failing info register: <~HEX~>",
+        "size": 18,
+        "is_anomaly": false,
+        "template_id": 130
+    },
+    {
+        "template": "capture valid.........<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 131
+    },
+    {
+        "template": "symbol................<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 132
+    },
+    {
+        "template": "mask..................<~HEX~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 133
+    },
+    {
+        "template": "miscompare............<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 134
+    },
+    {
+        "template": "uncorrectable error...<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 135
+    },
+    {
+        "template": "address parity error..<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 136
+    },
+    {
+        "template": "correctable error.....<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 137
+    },
+    {
+        "template": "qw trapped............<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 138
+    },
+    {
+        "template": "chip select...........<~NUM~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 139
+    },
+    {
+        "template": "DDR failing data registers: <~HEX~> <~HEX~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 140
+    },
+    {
+        "template": "<~HEX~> <~HEX~>",
+        "size": 141,
+        "is_anomaly": false,
+        "template_id": 141
+    },
+    {
+        "template": "DDR failing address register: <~HEX~> <~HEX~>",
+        "size": 47,
+        "is_anomaly": false,
+        "template_id": 142
+    },
+    {
+        "template": "PrepareForService is being done on this card(mLctn(<~IDHASH~>), mCardSernum(<~SEQ~>), <~*~> mIp(<~IP~>), mType(<~NUM~>)) by root",
+        "size": 5,
+        "is_anomaly": false,
+        "template_id": 143
+    },
+    {
+        "template": "PrepareForService shutting down <~*~> mCardSernum(<~SEQ~>), <~*~> mIp(<~IP~>), mType(<~NUM~>)) as part of Service Action <~NUM~>",
+        "size": 2316,
+        "is_anomaly": false,
+        "template_id": 144
+    },
+    {
+        "template": "EndServiceAction is restarting the <~*~> in midplane <~*~> as part of Service Action <~NUM~>",
+        "size": 537,
+        "is_anomaly": false,
+        "template_id": 145
+    },
+    {
+        "template": "EndServiceAction <~NUM~> performed upon <~*~> by root",
+        "size": 170,
+        "is_anomaly": false,
+        "template_id": 146
+    },
+    {
+        "template": "Node card is not fully functional",
+        "size": 17364,
+        "is_anomaly": false,
+        "template_id": 147
+    },
+    {
+        "template": "Can not get assembly information for node card",
+        "size": 17305,
+        "is_anomaly": false,
+        "template_id": 148
+    },
+    {
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <~NUM~>.<~NUM~> volt rail is OK. The <~NUM~>.<~NUM~> volt rail is OK.",
+        "size": 16896,
+        "is_anomaly": false,
+        "template_id": 149
+    },
+    {
+        "template": "Node card VPD check: <~*~> node in processor card slot <~*~> do not match. VPD ecid <~SEQ~>, found <~SEQ~>",
+        "size": 21356,
+        "is_anomaly": false,
+        "template_id": 150
+    },
+    {
+        "template": "ciod: sendMsgToDebugger: error sending PROGRAM_EXITED message to debugger.",
+        "size": 3,
+        "is_anomaly": false,
+        "template_id": 151
+    },
+    {
+        "template": "<~NUM~>:<~8NUM~> <~NUM~>:<~8NUM~> <~NUM~>:<~NUM~> <~NUM~>:<~NUM~>",
+        "size": 2090,
+        "is_anomaly": false,
+        "template_id": 152
+    },
+    {
+        "template": "lr:<~NUM~> cr:<~NUM~> xer:<~NUM~> ctr:<~NUM~>",
+        "size": 18,
+        "is_anomaly": false,
+        "template_id": 153
+    },
+    {
+        "template": "FATAL machine check interrupt (bit=<~HEX~>): L2 DCU read error",
+        "size": 3,
+        "is_anomaly": true,
+        "template_id": 154
+    },
+    {
+        "template": "<~NUM~> torus sender <~*~> <~*~> error(s) (dcr <~HEX~>) detected and corrected",
+        "size": 1146,
+        "is_anomaly": false,
+        "template_id": 155
+    },
+    {
+        "template": "<~*~> correctable errors exceeds threshold (iar <~HEX~> lr <~HEX~>)",
+        "size": 26,
+        "is_anomaly": false,
+        "template_id": 156
+    },
+    {
+        "template": "Starting SystemController",
+        "size": 71,
+        "is_anomaly": false,
+        "template_id": 157
+    },
+    {
+        "template": "Controlling BG/L rows <~SQUARE~>",
+        "size": 70,
+        "is_anomaly": false,
+        "template_id": 158
+    },
+    {
+        "template": "Running as background command",
+        "size": 70,
+        "is_anomaly": false,
+        "template_id": 159
+    },
+    {
+        "template": "FATAL data storage interrupt",
+        "size": 63491,
+        "is_anomaly": true,
+        "template_id": 160
+    },
+    {
+        "template": "exception syndrome register: <~HEX~>",
+        "size": 18013,
+        "is_anomaly": false,
+        "template_id": 161
+    },
+    {
+        "template": "machine check: i-fetch......................<~NUM~>",
+        "size": 18017,
+        "is_anomaly": false,
+        "template_id": 162
+    },
+    {
+        "template": "program interrupt: illegal instruction......<~NUM~>",
+        "size": 13920,
+        "is_anomaly": false,
+        "template_id": 163
+    },
+    {
+        "template": "program interrupt: privileged instruction...<~NUM~>",
+        "size": 9824,
+        "is_anomaly": false,
+        "template_id": 164
+    },
+    {
+        "template": "program interrupt: trap instruction.........<~NUM~>",
+        "size": 9824,
+        "is_anomaly": false,
+        "template_id": 165
+    },
+    {
+        "template": "floating point operation....................<~NUM~>",
+        "size": 9824,
+        "is_anomaly": false,
+        "template_id": 166
+    },
+    {
+        "template": "store operation.............................<~NUM~>",
+        "size": 9824,
+        "is_anomaly": false,
+        "template_id": 167
+    },
+    {
+        "template": "data store interrupt caused by <~*~>",
+        "size": 19646,
+        "is_anomaly": false,
+        "template_id": 168
+    },
+    {
+        "template": "auxiliary processor.........................<~NUM~>",
+        "size": 8419,
+        "is_anomaly": false,
+        "template_id": 169
+    },
+    {
+        "template": "program interrupt: unimplemented operation..<~NUM~>",
+        "size": 8102,
+        "is_anomaly": false,
+        "template_id": 170
+    },
+    {
+        "template": "byte ordering exception.....................<~NUM~>",
+        "size": 8102,
+        "is_anomaly": false,
+        "template_id": 171
+    },
+    {
+        "template": "program interrupt: imprecise exception......<~NUM~>",
+        "size": 8102,
+        "is_anomaly": false,
+        "template_id": 172
+    },
+    {
+        "template": "program interrupt: fp cr update.............<~NUM~>",
+        "size": 8102,
+        "is_anomaly": false,
+        "template_id": 173
+    },
+    {
+        "template": "program interrupt: fp compare...............<~NUM~>",
+        "size": 8102,
+        "is_anomaly": false,
+        "template_id": 174
+    },
+    {
+        "template": "program interrupt: fp cr field .............<~NUM~>",
+        "size": 8102,
+        "is_anomaly": false,
+        "template_id": 175
+    },
+    {
+        "template": "<~NUM~> torus <~*~> sram <~*~> error(s) (dcr <~HEX~>) detected and corrected",
+        "size": 71,
+        "is_anomaly": false,
+        "template_id": 176
+    },
+    {
+        "template": "external input interrupt (unit=<~HEX~> bit=<~HEX~>): torus sender <~*~> retransmission error was corrected",
+        "size": 1322,
+        "is_anomaly": false,
+        "template_id": 177
+    },
+    {
+        "template": "external input interrupt (unit=<~HEX~> bit=<~HEX~>): number of corrected SRAM errors has exceeded threshold",
+        "size": 39,
+        "is_anomaly": false,
+        "template_id": 178
+    },
+    {
+        "template": "suppressing further interrupts of same type",
+        "size": 7694,
+        "is_anomaly": false,
+        "template_id": 179
+    },
+    {
+        "template": "Ido chip status changed: <~*~> ip=<~IP~> v=<~NUM~> t=<~NUM~> status=M <~*~> <~*~> <~NUM~> <~NUM~>:<~NUM~>:<~NUM~> PDT <~NUM~>",
+        "size": 11306,
+        "is_anomaly": false,
+        "template_id": 180
+    },
+    {
+        "template": "BGLMaster has been started: ./BGLMaster --consoleip <~IP~> --consoleport <~NUM~> --configfile bglmaster.init",
+        "size": 6,
+        "is_anomaly": false,
+        "template_id": 181
+    },
+    {
+        "template": "BglIdoChip table has <~NUM~> IDOs with the same IP address (<~IP~>)",
+        "size": 9,
+        "is_anomaly": false,
+        "template_id": 182
+    },
+    {
+        "template": "SerialNumber(<~SEQ~>) IpAddress(<~IP~>) Status(A)",
+        "size": 64,
+        "is_anomaly": false,
+        "template_id": 183
+    },
+    {
+        "template": "While initializing <~*~> card iDo machine with LP of <~*~> caught java.io.IOException: Could not contact iDo with <~*~> and IP=/<~IP~> because java.lang.RuntimeException: Communication error: (DirectIDo for Uninitialized DirectIDo for <~*~> is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = <~NUM~>, Reply Sequence Number = <~NUM~>, timedOut = true, retries = <~NUM~>, timeout = <~NUM~>, Expected Op Command = <~NUM~>, Actual Op Reply = <~NUM~>, Expected Sync Command = <~NUM~>, Actual Sync Reply = <~NUM~>)",
+        "size": 518,
+        "is_anomaly": false,
+        "template_id": 184
+    },
+    {
+        "template": "NodeCard VPD is corrupt",
+        "size": 10,
+        "is_anomaly": false,
+        "template_id": 185
+    },
+    {
+        "template": "While initializing node card, ido with LP of <~*~> caught java.lang.IllegalStateException: IDo is not in functional state -- currently in state COMMUNICATION_ERROR",
+        "size": 9,
+        "is_anomaly": false,
+        "template_id": 186
+    },
+    {
+        "template": "ciod: Unexpected eof at line <~NUM~> of node map file <~*~>",
+        "size": 328,
+        "is_anomaly": false,
+        "template_id": 187
+    },
+    {
+        "template": "FATAL ciod: Error creating node map from file <~*~> No child processes",
+        "size": 320,
+        "is_anomaly": true,
+        "template_id": 188
+    },
+    {
+        "template": "ddr: Unable to steer rank=<~NUM~>, symbol=<~NUM~> - rank is already steering symbol <~NUM~>. Due to multiple symbols being over the correctable e",
+        "size": 22,
+        "is_anomaly": false,
+        "template_id": 189
+    },
+    {
+        "template": "rror threshold, consider replacing the card",
+        "size": 22,
+        "is_anomaly": false,
+        "template_id": 190
+    },
+    {
+        "template": "ddr: Unable to steer rank=<~NUM~>, symbol=<~NUM~> - rank is already steering symbol <~NUM~>. Due to multiple symbols being over the <~*~>",
+        "size": 24,
+        "is_anomaly": false,
+        "template_id": 191
+    },
+    {
+        "template": "error threshold, consider replacing the card",
+        "size": 23,
+        "is_anomaly": false,
+        "template_id": 192
+    },
+    {
+        "template": "PrepareForService is being done on this part (mLctn(<~IDHASH~>), mCardSernum(<~SEQ~>), <~*~> mIp(<~IP~>), mType(<~NUM~>)) by <~*~>",
+        "size": 131,
+        "is_anomaly": false,
+        "template_id": 193
+    },
+    {
+        "template": "ciod: Error loading <~*~> program image too big, <~NUM~> > <~NUM~>",
+        "size": 1512,
+        "is_anomaly": false,
+        "template_id": 194
+    },
+    {
+        "template": "critical input interrupt (unit=<~HEX~> bit=<~HEX~>): warning for <~*~> <~*~> wire",
+        "size": 7682,
+        "is_anomaly": false,
+        "template_id": 195
+    },
+    {
+        "template": "job <~NUM~> timed out. Block freed.",
+        "size": 306,
+        "is_anomaly": false,
+        "template_id": 196
+    },
+    {
+        "template": "data storage interrupt",
+        "size": 2,
+        "is_anomaly": false,
+        "template_id": 197
+    },
+    {
+        "template": "program interrupt",
+        "size": 3662,
+        "is_anomaly": false,
+        "template_id": 198
+    },
+    {
+        "template": "ciod: X coordinate <~NUM~> exceeds physical dimension <~NUM~> at line <~NUM~> of node map file <~*~>",
+        "size": 168,
+        "is_anomaly": false,
+        "template_id": 199
+    },
+    {
+        "template": "FATAL ciod: Error creating node map from file <~*~> Cannot allocate memory",
+        "size": 144,
+        "is_anomaly": true,
+        "template_id": 200
+    },
+    {
+        "template": "<~NUM~> floating point alignment exceptions",
+        "size": 267725,
+        "is_anomaly": false,
+        "template_id": 201
+    },
+    {
+        "template": "Problem communicating with <~*~> <~*~> iDo machine with LP of <~*~> caught java.lang.IllegalStateException: while executing <~*~> Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object <~SQUARE~> is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = <~NUM~>, Reply Sequence Number = <~NUM~>, timedOut = true, retries = <~NUM~>, timeout = <~NUM~>, Expected Op Command = <~NUM~>, Actual Op Reply = <~NUM~>, Expected Sync Command = <~NUM~>, Actual Sync Reply = <~NUM~>)",
+        "size": 21,
+        "is_anomaly": false,
+        "template_id": 202
+    },
+    {
+        "template": "While initializing node card, ido with LP of <~*~> caught java.lang.IllegalStateException: while executing <~*~> Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object <~SQUARE~> is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = <~NUM~>, Reply Sequence Number = <~NUM~>, timedOut = true, retries = <~NUM~>, timeout = <~NUM~>, Expected Op Command = <~NUM~>, Actual Op Reply = <~NUM~>, Expected Sync Command = <~NUM~>, Actual Sync Reply = <~NUM~>)",
+        "size": 10,
+        "is_anomaly": false,
+        "template_id": 203
+    },
+    {
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. THE <~NUM~>.<~NUM~> VOLT RAIL IS NOT OK. THE <~NUM~>.<~NUM~> VOLT RAIL IS NOT OK.",
+        "size": 116,
+        "is_anomaly": false,
+        "template_id": 204
+    },
+    {
+        "template": "NodeCard temperature sensor chip <~*~> is not accessible",
+        "size": 5,
+        "is_anomaly": false,
+        "template_id": 205
+    },
+    {
+        "template": "NodeCard power module <~*~> is not accessible",
+        "size": 230,
+        "is_anomaly": false,
+        "template_id": 206
+    },
+    {
+        "template": "NodeCard VPD chip is not accessible",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 207
+    },
+    {
+        "template": "While initializing node card, ido with LP of <~HEXHASH~><~NUM~>:<~HEXHASH~><~NUM~>:<~NUM~>:<~HEXHASH~><~NUM~>:<~HEXHASH~><~NUM~>:<~NUM~> caught java.lang.NullPointerException",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 208
+    },
+    {
+        "template": "Node card status: ALERT <~NUM~>, ALERT <~NUM~>, ALERT <~NUM~>, ALERT <~NUM~> is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. TEMPERATURE MASK IS ACTIVE. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The <~NUM~>.<~NUM~> volt rail is OK. The <~NUM~>.<~NUM~> volt rail is OK.",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 209
+    },
+    {
+        "template": "Target=ido://<~HEXHASH~><~NUM~>:<~HEXHASH~><~NUM~>:<~NUM~>:<~HEXHASH~><~NUM~>:<~HEXHASH~><~NUM~>:<~NUM~>/JTAG/<~NUM~> Message=Pll failed to lock",
+        "size": 3,
+        "is_anomaly": false,
+        "template_id": 210
+    },
+    {
+        "template": "Target=ido://<~HEXHASH~><~NUM~>:<~HEXHASH~><~NUM~>:<~HEXHASH~><~NUM~>:<~HEXHASH~><~NUM~>:<~HEXHASH~>/JTAG/<~NUM~> Message=ScomError",
+        "size": 3,
+        "is_anomaly": false,
+        "template_id": 211
+    },
+    {
+        "template": "Target=ido://<~HEXHASH~><~NUM~>:<~HEXHASH~><~NUM~>:<~HEXHASH~><~NUM~>:<~HEXHASH~><~NUM~>:<~HEXHASH~>/JTAG/<~NUM~> Message=Invalid JtagId = <~8NUM~>",
+        "size": 15,
+        "is_anomaly": false,
+        "template_id": 212
+    },
+    {
+        "template": "FATAL MailboxMonitor::serviceMailboxes() lib_ido_error: <~NUM~> socket closed",
+        "size": 168,
+        "is_anomaly": true,
+        "template_id": 213
+    },
+    {
+        "template": "FAILURE mmcs_server exited normally with exit code <~NUM~>",
+        "size": 9,
+        "is_anomaly": true,
+        "template_id": 214
+    },
+    {
+        "template": "FATAL MidplaneSwitchController::sendTrain() port disconnected: <~IDHASH~>-U19-E",
+        "size": 24,
+        "is_anomaly": true,
+        "template_id": 215
+    },
+    {
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD is OK. MPGOOD ERROR LATCH IS ACTIVE. The <~NUM~>.<~NUM~> volt rail is OK. The <~NUM~>.<~NUM~> volt rail is OK.",
+        "size": 49,
+        "is_anomaly": false,
+        "template_id": 216
+    },
+    {
+        "template": "e error threshold, consider replacing the card",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 217
+    },
+    {
+        "template": "lr:<~8NUM~> cr:<~8NUM~> xer:<~NUM~> ctr:<~8NUM~>",
+        "size": 14,
+        "is_anomaly": false,
+        "template_id": 218
+    },
+    {
+        "template": "ciod: Error opening node map file <~*~> No such file or directory",
+        "size": 1936,
+        "is_anomaly": false,
+        "template_id": 219
+    },
+    {
+        "template": "ciod: Error creating node map from file <~*~> Bad file descriptor",
+        "size": 1936,
+        "is_anomaly": false,
+        "template_id": 220
+    },
+    {
+        "template": "<~NUM~> torus non-crc error(s) (dcr <~HEX~>) detected and corrected",
+        "size": 62,
+        "is_anomaly": false,
+        "template_id": 221
+    },
+    {
+        "template": "shutdown complete",
+        "size": 99,
+        "is_anomaly": false,
+        "template_id": 222
+    },
+    {
+        "template": "FATAL machine check interrupt (bit=<~HEX~>): Torus/Tree/GI read error <~NUM~>",
+        "size": 2,
+        "is_anomaly": true,
+        "template_id": 223
+    },
+    {
+        "template": "PrepareForService is being done on this Midplane <~*~> mCardSernum( <~SEQ~>)) by <~*~>",
+        "size": 201,
+        "is_anomaly": false,
+        "template_id": 224
+    },
+    {
+        "template": "PrepareForService is being done on this rack <~*~> by <~*~>",
+        "size": 30,
+        "is_anomaly": false,
+        "template_id": 225
+    },
+    {
+        "template": "LinkCard power module U58 is not accessible",
+        "size": 319,
+        "is_anomaly": false,
+        "template_id": 226
+    },
+    {
+        "template": "NodeCard is not fully functional",
+        "size": 60,
+        "is_anomaly": false,
+        "template_id": 227
+    },
+    {
+        "template": "LinkCard is not fully functional",
+        "size": 248,
+        "is_anomaly": false,
+        "template_id": 228
+    },
+    {
+        "template": "this link card is not fully functional",
+        "size": 22,
+        "is_anomaly": false,
+        "template_id": 229
+    },
+    {
+        "template": "FATAL no ethernet link",
+        "size": 14,
+        "is_anomaly": true,
+        "template_id": 230
+    },
+    {
+        "template": "FATAL rts: kernel terminated for reason 1004rts: bad message header: expecting type <~NUM~>, type=<~NUM~>, cpu=<~NUM~>, index=<~NUM~>, total=<~NUM~>",
+        "size": 1139,
+        "is_anomaly": true,
+        "template_id": 231
+    },
+    {
+        "template": "ciod: In packet from node <~NUM~>.<~NUM~> <~*~> message code <~NUM~> is not <~NUM~> or <~NUM~> (softheader=<~SEQ~>)",
+        "size": 176,
+        "is_anomaly": false,
+        "template_id": 232
+    },
+    {
+        "template": "Target=ido://<~HEXHASH~><~NUM~>:<~HEXHASH~><~NUM~>:<~NUM~>:<~HEXHASH~><~NUM~>:<~HEXHASH~><~NUM~>:<~HEXHASH~>/JTAG/<~NUM~> Message=Invalid JtagId = <~8NUM~>",
+        "size": 44,
+        "is_anomaly": false,
+        "template_id": 233
+    },
+    {
+        "template": "ciod: Missing or invalid fields on line <~NUM~> of node map file <~PATH~>",
+        "size": 2048,
+        "is_anomaly": false,
+        "template_id": 234
+    },
+    {
+        "template": "FATAL ciod: Error creating node map from file <~PATH~>: Resource temporarily unavailable",
+        "size": 2048,
+        "is_anomaly": true,
+        "template_id": 235
+    },
+    {
+        "template": "FATAL Power deactivated: <~IDHASH~>",
+        "size": 192,
+        "is_anomaly": true,
+        "template_id": 236
+    },
+    {
+        "template": "Problem reading the ethernet arl entries fro the service card: java.lang.IllegalStateException: while executing I2C Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object <~SQUARE~> is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = <~NUM~>, Reply Sequence Number = <~NUM~>, timedOut = true, retries = <~NUM~>, timeout = <~NUM~>, Expected Op Command = <~NUM~>, Actual Op Reply = <~NUM~>, Expected Sync Command = <~NUM~>, Actual Sync Reply = <~NUM~>)",
+        "size": 4,
+        "is_anomaly": false,
+        "template_id": 237
+    },
+    {
+        "template": "parity error.......<~NUM~>",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 238
+    },
+    {
+        "template": "machine state register:",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 239
+    },
+    {
+        "template": "FATAL program interrupt",
+        "size": 5,
+        "is_anomaly": true,
+        "template_id": 240
+    },
+    {
+        "template": "machine state register: machine state register: machine state register: machine state register: machine state register: machine",
+        "size": 5,
+        "is_anomaly": false,
+        "template_id": 241
+    },
+    {
+        "template": "state register: machine state register: machine state register: machine state register: machine state register: machine state re",
+        "size": 5,
+        "is_anomaly": false,
+        "template_id": 242
+    },
+    {
+        "template": "gister: machine state register: machine state register: machine state register: machine state register: machine state register:",
+        "size": 5,
+        "is_anomaly": false,
+        "template_id": 243
+    },
+    {
+        "template": "New ido chip inserted into the database: <~*~> ip=<~IP~> v=<~NUM~> t=<~NUM~>",
+        "size": 3455,
+        "is_anomaly": false,
+        "template_id": 244
+    },
+    {
+        "template": "FATAL rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=<~NUM~>, cpu=<~NUM~>, index=<~NUM~>, total=<~NUM~>",
+        "size": 3334,
+        "is_anomaly": true,
+        "template_id": 245
+    },
+    {
+        "template": "FATAL rts: kernel terminated for reason 1002rts: bad message header: too many packets, type=<~NUM~>, cpu=<~NUM~>, index=<~NUM~>, <~*~>",
+        "size": 250,
+        "is_anomaly": true,
+        "template_id": 246
+    },
+    {
+        "template": "FATAL rts: kernel terminated for reason 1002rts: bad message header: too many packets, type=<~NUM~>, cpu=<~NUM~>, index=<~NUM~>, total=<~NUM~>, <~*~>",
+        "size": 28,
+        "is_anomaly": true,
+        "template_id": 247
+    },
+    {
+        "template": "FATAL",
+        "size": 537,
+        "is_anomaly": false,
+        "template_id": 248
+    },
+    {
+        "template": "max=<~NUM~>",
+        "size": 130,
+        "is_anomaly": false,
+        "template_id": 249
+    },
+    {
+        "template": "<~NUM~>",
+        "size": 856,
+        "is_anomaly": false,
+        "template_id": 250
+    },
+    {
+        "template": "FATAL MidplaneSwitchController::parityAlignment() pap failed: <~*~> status=<~SEQ~>",
+        "size": 4,
+        "is_anomaly": true,
+        "template_id": 251
+    },
+    {
+        "template": "FATAL MidplaneSwitchController::parityAlignment() pap failed: <~*~> status=<~8NUM~> <~8NUM~>",
+        "size": 10,
+        "is_anomaly": true,
+        "template_id": 252
+    },
+    {
+        "template": "ciod: duplicate canonical-rank <~NUM~> to logical-rank <~NUM~> mapping at line <~NUM~> of node map file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-sweep/sweep.map",
+        "size": 512,
+        "is_anomaly": false,
+        "template_id": 253
+    },
+    {
+        "template": "FATAL ciod: Error creating node map from file /p/gb2/pakin1/sweep3d-5x5x400-10mk-3mmi-1024pes-sweep/sweep.map: Device or resource busy",
+        "size": 512,
+        "is_anomaly": true,
+        "template_id": 254
+    },
+    {
+        "template": "ciod: T coordinate <~NUM~> exceeds physical dimension <~NUM~> at line <~NUM~> of node map file <~*~>",
+        "size": 1016,
+        "is_anomaly": false,
+        "template_id": 255
+    },
+    {
+        "template": "ciod: Error creating node map from file <~*~> Block device required",
+        "size": 1016,
+        "is_anomaly": false,
+        "template_id": 256
+    },
+    {
+        "template": "ciod: Y coordinate <~NUM~> exceeds physical dimension <~NUM~> at line <~NUM~> of node map file <~*~>",
+        "size": 1272,
+        "is_anomaly": false,
+        "template_id": 257
+    },
+    {
+        "template": "ciod: Error creating node map from file <~*~> Permission denied",
+        "size": 1272,
+        "is_anomaly": false,
+        "template_id": 258
+    },
+    {
+        "template": "<~NUM~>, max=<~NUM~>",
+        "size": 103,
+        "is_anomaly": false,
+        "template_id": 259
+    },
+    {
+        "template": "FATAL external input interrupt (unit=<~HEX~> bit=<~HEX~>): uncorrectable torus error",
+        "size": 10,
+        "is_anomaly": true,
+        "template_id": 260
+    },
+    {
+        "template": "Torus non-recoverable error DCRs follow.",
+        "size": 10,
+        "is_anomaly": false,
+        "template_id": 261
+    },
+    {
+        "template": "DCR <~HEX~> : <~HEX~>",
+        "size": 130,
+        "is_anomaly": false,
+        "template_id": 262
+    },
+    {
+        "template": "ax=<~NUM~>",
+        "size": 13,
+        "is_anomaly": false,
+        "template_id": 263
+    },
+    {
+        "template": "MailboxMonitor::serviceMailboxes() lib_ido_error: <~NUM~> unexpected socket error: Broken pipe",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 264
+    },
+    {
+        "template": "FAILURE mmcs_server exited abnormally due to signal: Aborted",
+        "size": 11,
+        "is_anomaly": true,
+        "template_id": 265
+    },
+    {
+        "template": "ciod: Error loading <~*~> invalid or missing program image, Exec format error",
+        "size": 22032,
+        "is_anomaly": false,
+        "template_id": 266
+    },
+    {
+        "template": "ciod: Z coordinate <~NUM~> exceeds physical dimension <~NUM~> at line <~NUM~> of node map file <~*~>",
+        "size": 1056,
+        "is_anomaly": false,
+        "template_id": 267
+    },
+    {
+        "template": "ciod: Error creating node map from file <~*~> Bad address",
+        "size": 1056,
+        "is_anomaly": false,
+        "template_id": 268
+    },
+    {
+        "template": ", max=<~NUM~>",
+        "size": 13,
+        "is_anomaly": false,
+        "template_id": 269
+    },
+    {
+        "template": "x=<~NUM~>",
+        "size": 2,
+        "is_anomaly": false,
+        "template_id": 270
+    },
+    {
+        "template": "ciod: Error loading ..<~PATH~> -n <~NUM~>: invalid or missing program image, No such file or directory",
+        "size": 64,
+        "is_anomaly": false,
+        "template_id": 271
+    },
+    {
+        "template": "ciodb exited normally with exit code <~NUM~>",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 272
+    },
+    {
+        "template": "lr:<~8NUM~> cr:<~8NUM~> xer:<~NUM~> ctr:<~NUM~>",
+        "size": 6,
+        "is_anomaly": false,
+        "template_id": 273
+    },
+    {
+        "template": "Ido packet timeout",
+        "size": 4276,
+        "is_anomaly": false,
+        "template_id": 274
+    },
+    {
+        "template": "FATAL MailboxMonitor::serviceMailboxes() lib_ido_error: <~NUM~> BGLERR_IDO_PKT_TIMEOUT connection lost to node/link/service card",
+        "size": 14,
+        "is_anomaly": true,
+        "template_id": 275
+    },
+    {
+        "template": "FATAL ciod: Error reading message prefix after <~*~> on CioStream socket to <~IP~>:<~NUM~>: Link has been severed",
+        "size": 23105,
+        "is_anomaly": true,
+        "template_id": 276
+    },
+    {
+        "template": "FAILURE mmcs_server exited abnormally due to signal: Segmentation fault",
+        "size": 3,
+        "is_anomaly": true,
+        "template_id": 277
+    },
+    {
+        "template": "FAILURE monitor caught java.lang.UnsupportedOperationException: power module <~*~> not present and is stopping",
+        "size": 2,
+        "is_anomaly": true,
+        "template_id": 278
+    },
+    {
+        "template": "FAILURE While inserting monitor info into <~HEXHASH~> caught java.lang.NullPointerException",
+        "size": 2,
+        "is_anomaly": true,
+        "template_id": 279
+    },
+    {
+        "template": "Node card VPD check: missing <~*~> node, VPD ecid <~SEQ~> in processor card slot <~*~>",
+        "size": 887,
+        "is_anomaly": false,
+        "template_id": 280
+    },
+    {
+        "template": "DeclareServiceNetworkCharacteristics has been run but the <~HEXHASH~> is not empty",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 281
+    },
+    {
+        "template": "DeclareServiceNetworkCharacteristics has been run with the force option but the <~HEXHASH~> is not empty",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 282
+    },
+    {
+        "template": "Added <~NUM~> subnets and <~NUM~> addresses to <~HEXHASH~>",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 283
+    },
+    {
+        "template": "Problem communicating with service card, ido chip: <~*~> java.lang.IllegalStateException: IDo is not in functional state -- currently in state COMMUNICATION_ERROR",
+        "size": 6,
+        "is_anomaly": false,
+        "template_id": 284
+    },
+    {
+        "template": "While initializing service card iDo with LP of <~*~> caught java.io.IOException: Could not contact iDo with <~*~> and IP=/<~IP~> because java.lang.RuntimeException: Communication error: (DirectIDo for Uninitialized DirectIDo for <~*~> is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = <~NUM~>, Reply Sequence Number = <~NUM~>, timedOut = true, retries = <~NUM~>, timeout = <~NUM~>, Expected Op Command = <~NUM~>, Actual Op Reply = <~NUM~>, Expected Sync Command = <~NUM~>, Actual Sync Reply = <~NUM~>)",
+        "size": 197,
+        "is_anomaly": false,
+        "template_id": 285
+    },
+    {
+        "template": "Expected <~NUM~> active FanModules, but found <~NUM~> ( Found J300 J301 J302 J303 J304 J306 J307 J308 J309 ).",
+        "size": 5,
+        "is_anomaly": false,
+        "template_id": 286
+    },
+    {
+        "template": "BGLMaster has been started: ./BGLMaster --consoleip <~IP~> --consoleport <~NUM~> --configfile bglmaster.init --autorestart y",
+        "size": 59,
+        "is_anomaly": false,
+        "template_id": 287
+    },
+    {
+        "template": "Found invalid node ecid in processor card slot <~*~> ecid <~SEQ~>",
+        "size": 5558,
+        "is_anomaly": false,
+        "template_id": 288
+    },
+    {
+        "template": "Node card status: ALERT <~NUM~>, ALERT <~NUM~>, ALERT <~NUM~>, ALERT <~NUM~> is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The <~NUM~>.<~NUM~> volt rail is OK. The <~NUM~>.<~NUM~> volt rail is OK.",
+        "size": 171,
+        "is_anomaly": false,
+        "template_id": 289
+    },
+    {
+        "template": "idoproxy exited normally with exit code <~NUM~>",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 290
+    },
+    {
+        "template": "FAILURE ciodb exited normally with exit code <~NUM~>",
+        "size": 1,
+        "is_anomaly": true,
+        "template_id": 291
+    },
+    {
+        "template": "Problem communicating with service card, ido chip: <~*~> java.io.IOException: Could not find EthernetSwitch on port:address <~NUM~>:<~NUM~>",
+        "size": 166,
+        "is_anomaly": false,
+        "template_id": 292
+    },
+    {
+        "template": "Expected <~NUM~> active FanModules, but found <~NUM~> ( Found J300 J301 J302 J303 J304 J305 J306 J307 J308 ).",
+        "size": 6,
+        "is_anomaly": false,
+        "template_id": 293
+    },
+    {
+        "template": "Bad cable going into LinkCard (<~SEQ~>) Jtag (<~NUM~>) Port <~*~> - <~NUM~> bad wires",
+        "size": 232,
+        "is_anomaly": false,
+        "template_id": 294
+    },
+    {
+        "template": "Missing reverse cable: Cable <~IDHASH~> <~NUM~> F <~*~> --> <~IDHASH~> <~NUM~> C <~*~> is present BUT the reverse cable <~IDHASH~> <~NUM~> F <~*~> --> <~IDHASH~> <~NUM~> C <~*~> is missing",
+        "size": 354,
+        "is_anomaly": false,
+        "template_id": 295
+    },
+    {
+        "template": "FATAL Error: unable to mount filesystem",
+        "size": 720,
+        "is_anomaly": true,
+        "template_id": 296
+    },
+    {
+        "template": "FATAL Lustre mount FAILED : <~*~> : block_id : location",
+        "size": 5105,
+        "is_anomaly": true,
+        "template_id": 297
+    },
+    {
+        "template": "idoproxydb hit ASSERT condition: ASSERT expression=<~NUM~> Source file=idotransportmgr.cpp Source line=<~NUM~> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)",
+        "size": 84168,
+        "is_anomaly": false,
+        "template_id": 298
+    },
+    {
+        "template": "Target=ido://<~HEXHASH~><~NUM~>:<~HEXHASH~><~NUM~>:<~NUM~>:<~HEXHASH~><~NUM~>:<~HEXHASH~><~NUM~>:<~HEXHASH~>/JTAG/<~NUM~> Message=JtagId All all zeros, power good may be low",
+        "size": 4,
+        "is_anomaly": false,
+        "template_id": 299
+    },
+    {
+        "template": "FATAL Microloader Assertion",
+        "size": 1503,
+        "is_anomaly": true,
+        "template_id": 300
+    },
+    {
+        "template": "VALIDATE_LOAD_IMAGE_CRC_IN_DRAM",
+        "size": 8,
+        "is_anomaly": false,
+        "template_id": 301
+    },
+    {
+        "template": "Problem communicating with service card, ido chip: <~*~> java.lang.IllegalStateException: while executing CONTROL Operation caught java.lang.RuntimeException: Communication error: (DirectIDo for com.ibm.ido.DirectIDo object <~SQUARE~> is in state = COMMUNICATION_ERROR, sequenceNumberIsOk = false, ExpectedSequenceNumber = <~NUM~>, Reply Sequence Number = <~NUM~>, timedOut = true, retries = <~NUM~>, timeout = <~NUM~>, Expected Op Command = <~NUM~>, Actual Op Reply = <~NUM~>, Expected Sync Command = <~NUM~>, Actual Sync Reply = <~NUM~>)",
+        "size": 2,
+        "is_anomaly": false,
+        "template_id": 302
+    },
+    {
+        "template": "Missing reverse cable: Cable <~IDHASH~> <~NUM~> E (J13) --> <~IDHASH~> <~NUM~> D (J15) is present BUT the reverse cable <~IDHASH~> <~NUM~> E (J05) --> <~IDHASH~> <~NUM~> D (J07) is missing",
+        "size": 168,
+        "is_anomaly": false,
+        "template_id": 303
+    },
+    {
+        "template": "idoproxydb hit ASSERT condition: ASSERT expression=!(nMsgLen > <~HEX~>) Source file=idomarshalerio.cpp Source line=<~NUM~> Function=int IdoMarshalerRecvBuffer::ReadBlock(IdoMsg::IdoMsgHdr*&)",
+        "size": 2,
+        "is_anomaly": false,
+        "template_id": 304
+    },
+    {
+        "template": "idoproxydb hit ASSERT condition: ASSERT expression=!(RecvMsgHdr.ulLen > <~HEX~>) Source file=idomarshalerio.cpp Source line=<~NUM~> Function=virtual int IdoMarshalerIo::RunRecv()",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 305
+    },
+    {
+        "template": "FATAL ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <~IP~>:<~NUM~>: Connection reset by peer",
+        "size": 114,
+        "is_anomaly": true,
+        "template_id": 306
+    },
+    {
+        "template": "EndServiceAction <~NUM~> performed upon <~*~> by orbeck1",
+        "size": 16,
+        "is_anomaly": false,
+        "template_id": 307
+    },
+    {
+        "template": "EndServiceAction <~NUM~> performed upon <~*~> by gooding3",
+        "size": 29,
+        "is_anomaly": false,
+        "template_id": 308
+    },
+    {
+        "template": "FATAL MidplaneSwitchController::receiveTrain() iap failed: <~*~> status=<~8NUM~> <~8NUM~>",
+        "size": 166,
+        "is_anomaly": true,
+        "template_id": 309
+    },
+    {
+        "template": "EndServiceAction <~NUM~> performed upon <~IDHASH~> by <~*~>",
+        "size": 16,
+        "is_anomaly": false,
+        "template_id": 310
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: <~*~> C X+ X- Y+ Y- Z+ Z- got: <~*~> C <~*~> <~*~> Y- Z+ Z-",
+        "size": 98,
+        "is_anomaly": false,
+        "template_id": 311
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ Z- got: C X+ <~*~> <~*~> Z-",
+        "size": 9,
+        "is_anomaly": false,
+        "template_id": 312
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: A B C <~*~> <~*~> <~*~> Z+ Z-",
+        "size": 56,
+        "is_anomaly": false,
+        "template_id": 313
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: <~*~> C X+ X- Y+ Y- Z+ Z- got: <~*~> C <~*~> <~*~> Z+ Z-",
+        "size": 26,
+        "is_anomaly": false,
+        "template_id": 314
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ Z- got: C <~*~> <~*~> Y- Z+ Z-",
+        "size": 36,
+        "is_anomaly": false,
+        "template_id": 315
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: <~*~> <~*~> <~*~> <~*~> Y- Z+ Z-",
+        "size": 8,
+        "is_anomaly": false,
+        "template_id": 316
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- Z+ Z- got: B C <~*~> <~*~> <~*~> Z+ Z-",
+        "size": 37,
+        "is_anomaly": false,
+        "template_id": 317
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: <~*~> C X+ X- Y+ Y- Z+ Z- got: <~*~> C X+ X- Y+ <~*~> <~*~>",
+        "size": 79,
+        "is_anomaly": false,
+        "template_id": 318
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: A B C <~*~> <~*~> <~*~> <~*~>",
+        "size": 38,
+        "is_anomaly": false,
+        "template_id": 319
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: C X- Y+ Y- Z+ Z-",
+        "size": 4,
+        "is_anomaly": false,
+        "template_id": 320
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: A C X+ X- Y+ Y- Z+ Z- got: A C <~*~> <~*~> <~*~> <~*~>",
+        "size": 38,
+        "is_anomaly": false,
+        "template_id": 321
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ Z- got: C <~*~> Y+ Y- <~*~>",
+        "size": 9,
+        "is_anomaly": false,
+        "template_id": 322
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: A B C X- <~*~> Z+",
+        "size": 4,
+        "is_anomaly": false,
+        "template_id": 323
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: A B C X+ X- Y+ <~*~> <~*~>",
+        "size": 93,
+        "is_anomaly": false,
+        "template_id": 324
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ Z- got: C X+ X- Y+ Y- <~*~>",
+        "size": 18,
+        "is_anomaly": false,
+        "template_id": 325
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: C X+ X- Y+ Y- Z+ Z- got: C X+ Y- Z-",
+        "size": 2,
+        "is_anomaly": false,
+        "template_id": 326
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- Z+ Z- got: B C <~*~> <~*~> <~*~> <~*~>",
+        "size": 18,
+        "is_anomaly": false,
+        "template_id": 327
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: A C X+ X- Y+ Y- Z+ Z- got: A C X+ <~*~> <~*~>",
+        "size": 6,
+        "is_anomaly": false,
+        "template_id": 328
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- Z+ Z- got: B C X- <~*~> Z-",
+        "size": 4,
+        "is_anomaly": false,
+        "template_id": 329
+    },
+    {
+        "template": "ddr: Unable to steer rank=<~NUM~>, symbol=<~NUM~> - rank is already steering symbol <~NUM~>. Due to multiple symbols being over the correctable error threshold, consider replacing the card",
+        "size": 197,
+        "is_anomaly": false,
+        "template_id": 330
+    },
+    {
+        "template": "rts tree/torus link training failed: wanted: A B C X+ X- Y+ Y- Z+ Z- got: A <~*~> <~*~> X- Y+ Y- Z+ Z-",
+        "size": 22,
+        "is_anomaly": false,
+        "template_id": 331
+    },
+    {
+        "template": "FAILURE ciodb exited abnormally due to signal: Aborted",
+        "size": 23,
+        "is_anomaly": true,
+        "template_id": 332
+    },
+    {
+        "template": "ciod: Error loading <~*~> invalid or missing program image, Permission denied",
+        "size": 43040,
+        "is_anomaly": false,
+        "template_id": 333
+    },
+    {
+        "template": "ciod: generated <~NUM~> core files for program <~*~>",
+        "size": 62484,
+        "is_anomaly": false,
+        "template_id": 334
+    },
+    {
+        "template": "FATAL rts: kernel terminated for reason <~NUM~>",
+        "size": 18587,
+        "is_anomaly": true,
+        "template_id": 335
+    },
+    {
+        "template": "rts: bad message header: cpu <~NUM~> invalid (softheader=<~SEQ~>) PSR0=<~NUM~> PSR1=<~NUM~> <~*~> PIXF=<~NUM~>",
+        "size": 619,
+        "is_anomaly": false,
+        "template_id": 336
+    },
+    {
+        "template": "rts: bad message header: packet index <~NUM~> greater than max <~NUM~> (softheader=<~SEQ~>) <~*~> PSR1=<~NUM~> <~*~> PIXF=<~NUM~>",
+        "size": 114,
+        "is_anomaly": false,
+        "template_id": 337
+    },
+    {
+        "template": "rts: bad message header: index <~NUM~> greater than total <~NUM~> (softheader=<~SEQ~>) <~*~> PSR1=<~NUM~> <~*~> PIXF=<~NUM~>",
+        "size": 238,
+        "is_anomaly": false,
+        "template_id": 338
+    },
+    {
+        "template": "rts: bad message header: expecting type <~NUM~> instead of type <~NUM~> (softheader=<~SEQ~>) <~*~> PSR1=<~NUM~> <~*~> PIXF=<~NUM~>",
+        "size": 1146,
+        "is_anomaly": false,
+        "template_id": 339
+    },
+    {
+        "template": "FATAL kernel panic",
+        "size": 18,
+        "is_anomaly": true,
+        "template_id": 340
+    },
+    {
+        "template": "external input interrupt (unit=<~HEX~> bit=<~HEX~>): 1M tree receiver <~NUM~> in resynch mode",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 341
+    },
+    {
+        "template": "mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties <~*~> --iolog <~PATH~> --reconnect-blocks all --shutdown-timeout <~NUM~>",
+        "size": 72,
+        "is_anomaly": false,
+        "template_id": 342
+    },
+    {
+        "template": "iar <~8NUM~> dear <~8NUM~>",
+        "size": 243400,
+        "is_anomaly": false,
+        "template_id": 343
+    },
+    {
+        "template": "INFO",
+        "size": 33933,
+        "is_anomaly": false,
+        "template_id": 344
+    },
+    {
+        "template": "iar <~8NUM~> dear <~NUM~>",
+        "size": 10128,
+        "is_anomaly": false,
+        "template_id": 345
+    },
+    {
+        "template": "NFS Mount failed on <~*~> slept <~NUM~> seconds, retrying (<~NUM~>)",
+        "size": 2670,
+        "is_anomaly": false,
+        "template_id": 346
+    },
+    {
+        "template": "CHECK_INITIAL_GLOBAL_INTERRUPT_VALUES",
+        "size": 544,
+        "is_anomaly": false,
+        "template_id": 347
+    },
+    {
+        "template": "FATAL Lustre mount FAILED : <~*~> : point /p/gb1",
+        "size": 26426,
+        "is_anomaly": true,
+        "template_id": 348
+    },
+    {
+        "template": "mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties serverdb.properties --iolog <~PATH~> --reconnect-blocks all --no-reconnect-blocks",
+        "size": 2,
+        "is_anomaly": false,
+        "template_id": 349
+    },
+    {
+        "template": "EndServiceAction <~NUM~> was performed upon <~IDHASH~> by <~*~>",
+        "size": 4,
+        "is_anomaly": false,
+        "template_id": 350
+    },
+    {
+        "template": "FATAL external input interrupt (unit=<~HEX~> bit=<~HEX~>): tree header with no target waiting",
+        "size": 1,
+        "is_anomaly": true,
+        "template_id": 351
+    },
+    {
+        "template": "EndServiceAction <~NUM~> performed upon R65 by pjmccart",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 352
+    },
+    {
+        "template": "Target=ido://<~HEXHASH~><~NUM~>:<~HEXHASH~><~NUM~>:<~NUM~>:<~HEXHASH~><~NUM~>:<~HEXHASH~>/JTAG/<~NUM~> Message=Invalid JtagId = <~8NUM~>",
+        "size": 4,
+        "is_anomaly": false,
+        "template_id": 353
+    },
+    {
+        "template": "FAILURE power module status fault detected on node card. status registers are: <~NUM~>/<~NUM~>/<~NUM~>/<~NUM~>",
+        "size": 4,
+        "is_anomaly": true,
+        "template_id": 354
+    },
+    {
+        "template": "lr:<~NUM~> cr:<~NUM~> xer:<~NUM~> ctr:<~8NUM~>",
+        "size": 6,
+        "is_anomaly": false,
+        "template_id": 355
+    },
+    {
+        "template": "lr:<~NUM~> cr:<~8NUM~> xer:<~NUM~> ctr:<~8NUM~>",
+        "size": 2,
+        "is_anomaly": false,
+        "template_id": 356
+    },
+    {
+        "template": "pro",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 357
+    },
+    {
+        "template": "program",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 358
+    },
+    {
+        "template": "FATAL floating point unavailable interrupt",
+        "size": 3,
+        "is_anomaly": true,
+        "template_id": 359
+    },
+    {
+        "template": "Microloader Assertion",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 360
+    },
+    {
+        "template": "Error getting detailed hw info for node, caught java.io.IOException: Problems with the chip, clear all resets",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 361
+    },
+    {
+        "template": "Error getting detailed hw info for node, caught java.io.IOException: Problems with the chip, could not <~*~> <~*~> <~*~>",
+        "size": 35,
+        "is_anomaly": false,
+        "template_id": 362
+    },
+    {
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <~NUM~>.<~NUM~> volt rail is OK. The <~NUM~>.<~NUM~> volt rail is OK.",
+        "size": 227,
+        "is_anomaly": false,
+        "template_id": 363
+    },
+    {
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. THE <~NUM~>.<~NUM~> VOLT RAIL IS NOT OK. THE <~NUM~>.<~NUM~> VOLT RAIL IS NOT OK.",
+        "size": 49,
+        "is_anomaly": false,
+        "template_id": 364
+    },
+    {
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD is OK. MPGOOD ERROR LATCH IS ACTIVE. The <~NUM~>.<~NUM~> volt rail is OK. The <~NUM~>.<~NUM~> volt rail is OK.",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 365
+    },
+    {
+        "template": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <~NUM~>.<~NUM~> volt rail is OK. THE <~NUM~>.<~NUM~> VOLT RAIL IS NOT OK.",
+        "size": 3,
+        "is_anomaly": false,
+        "template_id": 366
+    },
+    {
+        "template": "Error sending packet on tree network, packet at address <~NUM~> is not aligned",
+        "size": 5,
+        "is_anomaly": false,
+        "template_id": 367
+    },
+    {
+        "template": "data cache <~*~> parity error detected. attempting to correct",
+        "size": 14006,
+        "is_anomaly": false,
+        "template_id": 368
+    },
+    {
+        "template": "FATAL ddr: redundant bit steering failed, sequencer timeout",
+        "size": 1,
+        "is_anomaly": true,
+        "template_id": 369
+    },
+    {
+        "template": "L3 ecc status register: <~8NUM~>",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 370
+    },
+    {
+        "template": "ddrSize == <~NUM~>*<~NUM~>*<~NUM~> || ddrSize == <~NUM~>*<~NUM~>*<~NUM~>",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 371
+    },
+    {
+        "template": "FATAL rts assertion failed: `personality->version == BGLPERSONALITY_VERSION' in `void start()' at start.cc:<~NUM~>",
+        "size": 2,
+        "is_anomaly": true,
+        "template_id": 372
+    },
+    {
+        "template": "FATAL L3 major internal error",
+        "size": 3,
+        "is_anomaly": true,
+        "template_id": 373
+    },
+    {
+        "template": "FATAL Error receiving packet on tree network, expecting type <~NUM~> instead of type <~NUM~> (softheader=<~SEQ~>) PSR0=<~8NUM~> PSR1=<~NUM~> PRXF=<~NUM~> PIXF=<~NUM~>",
+        "size": 6144,
+        "is_anomaly": true,
+        "template_id": 374
+    },
+    {
+        "template": "ddr: activating redundant bit steering for next allocation: rank=<~NUM~> symbol=<~NUM~>",
+        "size": 492,
+        "is_anomaly": false,
+        "template_id": 375
+    },
+    {
+        "template": "iar <~NUM~> dear <~8NUM~>",
+        "size": 189438,
+        "is_anomaly": false,
+        "template_id": 376
+    },
+    {
+        "template": "L1 DCACHE summary averages: #ofDirtyLines: <~NUM~> out of <~NUM~> #ofDirtyDblWord: <~NUM~> out of <~NUM~>",
+        "size": 3149,
+        "is_anomaly": false,
+        "template_id": 377
+    },
+    {
+        "template": "idoproxydb hit ASSERT condition: ASSERT expression=pTargetMgr Source file=idoclientmgr.cpp Source line=<~NUM~> Function=int IdoClientMgr::TargetClose(const char*)",
+        "size": 82,
+        "is_anomaly": false,
+        "template_id": 378
+    },
+    {
+        "template": "FAILURE No power module U58 found found on link card",
+        "size": 6,
+        "is_anomaly": true,
+        "template_id": 379
+    },
+    {
+        "template": "Temperature Over Limit on link card",
+        "size": 972,
+        "is_anomaly": false,
+        "template_id": 380
+    },
+    {
+        "template": "Link PGOOD error latched on link card",
+        "size": 349,
+        "is_anomaly": false,
+        "template_id": 381
+    },
+    {
+        "template": "ciod: Error loading /g/g11/draeger/testqbox_devel/qb_devel_bgl: invalid or missing program image, No such device",
+        "size": 8,
+        "is_anomaly": false,
+        "template_id": 382
+    },
+    {
+        "template": "Local PGOOD error latched on link card",
+        "size": 4,
+        "is_anomaly": false,
+        "template_id": 383
+    },
+    {
+        "template": "Ido chip status changed: <~*~> ip=<~IP~> v=<~NUM~> t=<~NUM~> status=M <~*~> <~*~> <~NUM~> <~NUM~>:<~NUM~>:<~NUM~> PST <~NUM~>",
+        "size": 598,
+        "is_anomaly": false,
+        "template_id": 384
+    },
+    {
+        "template": "BGLMaster has been started: ./BGLMaster --consoleip <~IP~> --consoleport <~NUM~> --configfile bglmaster.init --autorestart y --db2profile /u/bgdb2cli/sqllib/db2profile --dbproperties db.properties",
+        "size": 31,
+        "is_anomaly": false,
+        "template_id": 385
+    },
+    {
+        "template": "critical input interrupt (unit=<~HEX~> bit=<~HEX~>): warning for <~*~> <~*~> wire, suppressing further interrupts of same type",
+        "size": 3546,
+        "is_anomaly": false,
+        "template_id": 386
+    },
+    {
+        "template": "<~NUM~> tree receiver <~NUM~> in re-synch state event(s) (dcr <~HEX~>) detected over <~NUM~> seconds",
+        "size": 3148,
+        "is_anomaly": false,
+        "template_id": 387
+    },
+    {
+        "template": "<~NUM~> torus receiver <~*~> input pipe error(s) (dcr <~HEX~>) detected and corrected over <~NUM~> seconds",
+        "size": 3512,
+        "is_anomaly": false,
+        "template_id": 388
+    },
+    {
+        "template": "<~NUM~> ddr error(s) detected and corrected on rank <~NUM~>, symbol <~NUM~> over <~NUM~> seconds",
+        "size": 10436,
+        "is_anomaly": false,
+        "template_id": 389
+    },
+    {
+        "template": "total of <~NUM~> ddr error(s) detected and corrected over <~NUM~> seconds",
+        "size": 10415,
+        "is_anomaly": false,
+        "template_id": 390
+    },
+    {
+        "template": "<~NUM~> L3 <~*~> error(s) (dcr <~HEX~>) detected and corrected over <~NUM~> seconds",
+        "size": 1514,
+        "is_anomaly": false,
+        "template_id": 391
+    },
+    {
+        "template": "FATAL idoproxy communication failure: socket closed",
+        "size": 41,
+        "is_anomaly": true,
+        "template_id": 392
+    },
+    {
+        "template": "Machine Check Status Register: <~HEX~>",
+        "size": 56,
+        "is_anomaly": false,
+        "template_id": 393
+    },
+    {
+        "template": "machine check summary.............<~NUM~>",
+        "size": 56,
+        "is_anomaly": false,
+        "template_id": 394
+    },
+    {
+        "template": "Machine State Register: <~HEX~>",
+        "size": 69,
+        "is_anomaly": false,
+        "template_id": 395
+    },
+    {
+        "template": "Core Configuration Register <~NUM~>: <~HEX~>",
+        "size": 69,
+        "is_anomaly": false,
+        "template_id": 396
+    },
+    {
+        "template": "DDR failing info register: DDR Fail Info Register: <~HEX~>",
+        "size": 29,
+        "is_anomaly": false,
+        "template_id": 397
+    },
+    {
+        "template": "General Purpose Registers:",
+        "size": 69,
+        "is_anomaly": false,
+        "template_id": 398
+    },
+    {
+        "template": "r00=<~HEX~> r01=<~HEX~> r02=<~HEX~> r03=<~HEX~>",
+        "size": 69,
+        "is_anomaly": false,
+        "template_id": 399
+    },
+    {
+        "template": "r04=<~HEX~> r05=<~HEX~> r06=<~HEX~> r07=<~HEX~>",
+        "size": 69,
+        "is_anomaly": false,
+        "template_id": 400
+    },
+    {
+        "template": "r08=<~HEX~> r09=<~HEX~> r10=<~HEX~> r11=<~HEX~>",
+        "size": 69,
+        "is_anomaly": false,
+        "template_id": 401
+    },
+    {
+        "template": "r12=<~HEX~> r13=<~HEX~> r14=<~HEX~> r15=<~HEX~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 402
+    },
+    {
+        "template": "r16=<~HEX~> r17=<~HEX~> r18=<~HEX~> r19=<~HEX~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 403
+    },
+    {
+        "template": "r20=<~HEX~> r21=<~HEX~> r22=<~HEX~> r23=<~HEX~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 404
+    },
+    {
+        "template": "r24=<~HEX~> r25=<~HEX~> r26=<~HEX~> r27=<~HEX~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 405
+    },
+    {
+        "template": "r28=<~HEX~> r29=<~HEX~> r30=<~HEX~> r31=<~HEX~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 406
+    },
+    {
+        "template": "Special Purpose Registers:",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 407
+    },
+    {
+        "template": "lr=<~HEX~> cr=<~HEX~> xer=<~HEX~> ctr=<~HEX~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 408
+    },
+    {
+        "template": "msr=<~HEX~> dear=<~HEX~> esr=<~HEX~> fpscr=<~HEX~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 409
+    },
+    {
+        "template": "dbcr0=<~HEX~> dbsr=<~HEX~> ccr0=<~HEX~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 410
+    },
+    {
+        "template": "Floating Point Status and Control Register: <~HEX~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 411
+    },
+    {
+        "template": "exception summary........................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 412
+    },
+    {
+        "template": "enabled exception summary................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 413
+    },
+    {
+        "template": "invalid operation exception summary......<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 414
+    },
+    {
+        "template": "overflow exception.......................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 415
+    },
+    {
+        "template": "underflow exception......................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 416
+    },
+    {
+        "template": "divide-by-zero exception.................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 417
+    },
+    {
+        "template": "inexact exception........................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 418
+    },
+    {
+        "template": "invalid (SNAN)...........................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 419
+    },
+    {
+        "template": "invalid (Inf-Inf)........................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 420
+    },
+    {
+        "template": "invalid (Inf/Inf)........................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 421
+    },
+    {
+        "template": "invalid (Zero/Zero)......................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 422
+    },
+    {
+        "template": "invalid (Inf/Zero).......................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 423
+    },
+    {
+        "template": "invalid (compare)........................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 424
+    },
+    {
+        "template": "fraction rounded.........................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 425
+    },
+    {
+        "template": "fraction inexact.........................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 426
+    },
+    {
+        "template": "quiet NaN................................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 427
+    },
+    {
+        "template": "minus inf................................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 428
+    },
+    {
+        "template": "minus normalized number..................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 429
+    },
+    {
+        "template": "minus denormalized number................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 430
+    },
+    {
+        "template": "minus zero...............................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 431
+    },
+    {
+        "template": "plus zero................................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 432
+    },
+    {
+        "template": "plus denormalized number.................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 433
+    },
+    {
+        "template": "plus normalized number...................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 434
+    },
+    {
+        "template": "plus infinity............................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 435
+    },
+    {
+        "template": "reserved.................................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 436
+    },
+    {
+        "template": "invalid operation exception (software)...<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 437
+    },
+    {
+        "template": "invalid operation exception (sqrt).......<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 438
+    },
+    {
+        "template": "invalid operation exception (int cnvt)...<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 439
+    },
+    {
+        "template": "enable invalid operation exceptions......<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 440
+    },
+    {
+        "template": "enable overflow exceptions...............<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 441
+    },
+    {
+        "template": "enable underflow exceptions..............<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 442
+    },
+    {
+        "template": "enable divide-by-zero exceptions.........<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 443
+    },
+    {
+        "template": "enable inexact exceptions................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 444
+    },
+    {
+        "template": "enable non-IEEE mode.....................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 445
+    },
+    {
+        "template": "round nearest............................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 446
+    },
+    {
+        "template": "round toward zero........................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 447
+    },
+    {
+        "template": "round toward +infinity...................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 448
+    },
+    {
+        "template": "round toward -infinity...................<~NUM~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 449
+    },
+    {
+        "template": "Floating Point Registers:",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 450
+    },
+    {
+        "template": "fpr0=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 451
+    },
+    {
+        "template": "fpr1=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 452
+    },
+    {
+        "template": "fpr2=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 453
+    },
+    {
+        "template": "fpr3=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 454
+    },
+    {
+        "template": "fpr4=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 455
+    },
+    {
+        "template": "fpr5=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 456
+    },
+    {
+        "template": "fpr6=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 457
+    },
+    {
+        "template": "fpr7=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 458
+    },
+    {
+        "template": "fpr8=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 459
+    },
+    {
+        "template": "fpr9=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 460
+    },
+    {
+        "template": "fpr10=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 461
+    },
+    {
+        "template": "fpr11=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 462
+    },
+    {
+        "template": "fpr12=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 463
+    },
+    {
+        "template": "fpr13=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 464
+    },
+    {
+        "template": "fpr14=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 465
+    },
+    {
+        "template": "fpr15=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 466
+    },
+    {
+        "template": "fpr16=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 467
+    },
+    {
+        "template": "fpr17=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 468
+    },
+    {
+        "template": "fpr18=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 469
+    },
+    {
+        "template": "fpr19=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 470
+    },
+    {
+        "template": "fpr20=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 471
+    },
+    {
+        "template": "fpr21=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 472
+    },
+    {
+        "template": "fpr22=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 473
+    },
+    {
+        "template": "fpr23=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 474
+    },
+    {
+        "template": "fpr24=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 475
+    },
+    {
+        "template": "fpr25=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 476
+    },
+    {
+        "template": "fpr26=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 477
+    },
+    {
+        "template": "fpr27=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 478
+    },
+    {
+        "template": "fpr28=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 479
+    },
+    {
+        "template": "fpr29=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 480
+    },
+    {
+        "template": "fpr30=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 481
+    },
+    {
+        "template": "fpr31=<~HEX~> <~SEQ~>",
+        "size": 68,
+        "is_anomaly": false,
+        "template_id": 482
+    },
+    {
+        "template": "ciod: Received signal <~NUM~>, code=<~NUM~>, errno=<~NUM~>, address=<~HEX~>",
+        "size": 39457,
+        "is_anomaly": false,
+        "template_id": 483
+    },
+    {
+        "template": "PrepareForService is being done on this Midplane <~*~> mCardSernum(<~SEQ~>), iWhichCardsToPwrOff(<~NUM~>)) by root",
+        "size": 48,
+        "is_anomaly": false,
+        "template_id": 484
+    },
+    {
+        "template": "PrepareForService shutting down <~*~> card(mLctn(<~IDHASH~>), mCardSernum(<~SEQ~>), <~*~> mIp(<~IP~>), mType(<~NUM~>)) as part of Service Action <~NUM~>",
+        "size": 715,
+        "is_anomaly": false,
+        "template_id": 485
+    },
+    {
+        "template": "FATAL Power Good signal deactivated: <~*~> A service action may be required.",
+        "size": 94,
+        "is_anomaly": true,
+        "template_id": 486
+    },
+    {
+        "template": "<~NUM~> torus sender <~*~> retransmission error(s) (dcr <~HEX~>) detected and corrected over <~NUM~> seconds",
+        "size": 1034,
+        "is_anomaly": false,
+        "template_id": 487
+    },
+    {
+        "template": "FATAL ciod: Error reading message prefix on CioStream socket to <~IP~>:<~NUM~>, Link has been severed",
+        "size": 26546,
+        "is_anomaly": true,
+        "template_id": 488
+    },
+    {
+        "template": "EndServiceAction is restarting the <~*~> cards in Midplane <~*~> as part of Service Action <~NUM~>",
+        "size": 51,
+        "is_anomaly": false,
+        "template_id": 489
+    },
+    {
+        "template": "Target=ido://<~HEXHASH~><~NUM~>:<~HEXHASH~><~NUM~>:<~NUM~>:<~HEXHASH~><~NUM~>:<~HEXHASH~>/JTAG/<~NUM~> Message=Invalid JtagId = <~8NUM~> Run environmental monitor to diagnose possible hardware failure.",
+        "size": 2,
+        "is_anomaly": false,
+        "template_id": 490
+    },
+    {
+        "template": "FATAL ciod: Error reading message prefix on CioStream socket to <~IP~>:<~NUM~>, Connection reset by peer",
+        "size": 2256,
+        "is_anomaly": true,
+        "template_id": 491
+    },
+    {
+        "template": "com.ibm.bgldevices.BulkPowerModule with VPD of com.ibm.bgldevices.BulkPowerModule$VpdReply: IBM Part Number: 53P5763, Vendor: Cherokee International, Vendor Serial Number: <~NUM~>, Assembly Revision: \u0000.A, Code Revision: B.<~NUM~>, Manufacture Date: during week <~NUM~> of <~NUM~>, Manufacture Location: Tustin, <~HEXHASH~>, USA is usable but not a supported version",
+        "size": 4,
+        "is_anomaly": false,
+        "template_id": 492
+    },
+    {
+        "template": "FAILURE monitor caught java.lang.IllegalStateException: while executing CONTROL Operation caught java.io.EOFException and is stopping",
+        "size": 1,
+        "is_anomaly": true,
+        "template_id": 493
+    },
+    {
+        "template": "monitor caught java.lang.IllegalStateException: while executing <~*~> Operation caught java.net.SocketException: Broken pipe and is stopping",
+        "size": 190,
+        "is_anomaly": false,
+        "template_id": 494
+    },
+    {
+        "template": "While reading FanModule caught java.lang.IllegalStateException: while executing I2C Operation caught java.net.SocketException: Broken pipe",
+        "size": 8,
+        "is_anomaly": false,
+        "template_id": 495
+    },
+    {
+        "template": "Hardware monitor caught java.lang.IllegalStateException: while executing I2C Operation caught java.net.SocketException: Broken pipe and is stopping",
+        "size": 4,
+        "is_anomaly": false,
+        "template_id": 496
+    },
+    {
+        "template": "While setting fan speed caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe",
+        "size": 8,
+        "is_anomaly": false,
+        "template_id": 497
+    },
+    {
+        "template": "While reading FanModule caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe",
+        "size": 8,
+        "is_anomaly": false,
+        "template_id": 498
+    },
+    {
+        "template": "While setting fan speed caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe",
+        "size": 8,
+        "is_anomaly": false,
+        "template_id": 499
+    },
+    {
+        "template": "While reading FanModule caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe",
+        "size": 8,
+        "is_anomaly": false,
+        "template_id": 500
+    },
+    {
+        "template": "While setting fan speed caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe",
+        "size": 7,
+        "is_anomaly": false,
+        "template_id": 501
+    },
+    {
+        "template": "While reading FanModule caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe",
+        "size": 7,
+        "is_anomaly": false,
+        "template_id": 502
+    },
+    {
+        "template": "While setting fan speed caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe",
+        "size": 5,
+        "is_anomaly": false,
+        "template_id": 503
+    },
+    {
+        "template": "While reading FanModule caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe",
+        "size": 5,
+        "is_anomaly": false,
+        "template_id": 504
+    },
+    {
+        "template": "While setting fan speed caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe",
+        "size": 3,
+        "is_anomaly": false,
+        "template_id": 505
+    },
+    {
+        "template": "While reading FanModule caught java.lang.IllegalStateException: while executing I2C Operation caught java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.lang.IllegalStateException: client not in a usable state because java.net.SocketException: Broken pipe",
+        "size": 3,
+        "is_anomaly": false,
+        "template_id": 506
+    },
+    {
+        "template": "Hardware monitor caught java.net.SocketException: Broken pipe and is stopping",
+        "size": 77,
+        "is_anomaly": false,
+        "template_id": 507
+    },
+    {
+        "template": "ciod: Error loading -mode VN: invalid or missing program image, No such file or directory",
+        "size": 1024,
+        "is_anomaly": false,
+        "template_id": 508
+    },
+    {
+        "template": "MACHINE CHECK PLB write IRQ (mc=1b08x iar <~HEX~> lr <~HEX~>)",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 509
+    },
+    {
+        "template": "MACHINE CHECK DCR read timeout (mc=e08x iar <~HEX~> lr <~HEX~>)",
+        "size": 14481,
+        "is_anomaly": false,
+        "template_id": 510
+    },
+    {
+        "template": "FATAL ciod: Error reading message prefix on CioStream socket to <~IP~>:<~NUM~>, Connection timed out",
+        "size": 1991,
+        "is_anomaly": true,
+        "template_id": 511
+    },
+    {
+        "template": "Exception Syndrome Register: <~HEX~>",
+        "size": 4,
+        "is_anomaly": false,
+        "template_id": 512
+    },
+    {
+        "template": "mmcs_db_server has been started: ./mmcs_db_server --useDatabase BGL --dbproperties db.properties --iolog <~PATH~> --reconnect-blocks all --shutdown-timeout <~NUM~> --shutdown-timeout <~NUM~>",
+        "size": 18,
+        "is_anomaly": false,
+        "template_id": 513
+    },
+    {
+        "template": "FATAL idoproxy communication failure: BGLERR_IDO_PKT_TIMEOUT connection lost to node/link/service card",
+        "size": 2,
+        "is_anomaly": true,
+        "template_id": 514
+    },
+    {
+        "template": "ciod: In packet from node <~NUM~>.<~NUM~> (<~BGLID~>), message still ready for node <~NUM~> (softheader=<~SEQ~>)",
+        "size": 2,
+        "is_anomaly": false,
+        "template_id": 515
+    },
+    {
+        "template": "FATAL machine check interrupt (bit=<~HEX~>): L2 dcache unit <~*~> <~*~> parity error",
+        "size": 23,
+        "is_anomaly": true,
+        "template_id": 516
+    },
+    {
+        "template": "FATAL MidplaneSwitchController::clearPort() bll_clear_port failed: <~IDHASH~>-U19-A",
+        "size": 2,
+        "is_anomaly": true,
+        "template_id": 517
+    },
+    {
+        "template": "ciod: Error creating node map from file my_map.txt: No such file or directory",
+        "size": 24,
+        "is_anomaly": false,
+        "template_id": 518
+    },
+    {
+        "template": "ciod: Error creating node map from file my_map.txt: Argument list too long",
+        "size": 8,
+        "is_anomaly": false,
+        "template_id": 519
+    },
+    {
+        "template": "<~NUM~> torus <~*~> sram <~*~> error(s) (dcr <~HEX~>) detected and corrected over <~NUM~> seconds",
+        "size": 15,
+        "is_anomaly": false,
+        "template_id": 520
+    },
+    {
+        "template": "<~NUM~> microseconds spent in the rbs signal handler during <~NUM~> calls. <~NUM~> microseconds was the maximum time for a single instance of a correctable ddr.",
+        "size": 135092,
+        "is_anomaly": false,
+        "template_id": 521
+    },
+    {
+        "template": "<~NUM~> total interrupts. <~NUM~> critical input interrupts. <~NUM~> microseconds total spent on critical input interrupts, <~NUM~> microseconds max time in a critical input interrupt.",
+        "size": 135092,
+        "is_anomaly": false,
+        "template_id": 522
+    },
+    {
+        "template": "instance of a correctable ddr. RAS KERNEL INFO <~NUM~> microseconds spent in the rbs signal handler during <~NUM~> calls. <~NUM~> microseconds was the maximum time for a single instance of a correctable ddr.",
+        "size": 4,
+        "is_anomaly": false,
+        "template_id": 523
+    },
+    {
+        "template": "max time in a cr RAS KERNEL INFO <~NUM~> total interrupts. <~NUM~> critical input interrupts. <~NUM~> microseconds total spent on critical input interrupts, <~NUM~> microseconds max time in a critical input interrupt.",
+        "size": 4,
+        "is_anomaly": false,
+        "template_id": 524
+    },
+    {
+        "template": "external input interrupt (unit=<~HEX~> bit=<~HEX~>): number of corrected SRAM errors has exceeded threshold, suppressing further interrupts of same type",
+        "size": 57,
+        "is_anomaly": false,
+        "template_id": 525
+    },
+    {
+        "template": "ddr: Suppressing further <~HEXHASH~> interrupts",
+        "size": 302,
+        "is_anomaly": false,
+        "template_id": 526
+    },
+    {
+        "template": "FATAL instruction TLB error interrupt",
+        "size": 1,
+        "is_anomaly": true,
+        "template_id": 527
+    },
+    {
+        "template": "Kernel detected <~NUM~> integer alignment exceptions (<~NUM~>) iar <~HEX~>, dear <~HEX~> (<~NUM~>) iar <~HEX~>, dear <~HEX~> (<~NUM~>) iar <~HEX~>, dear <~HEX~> (<~NUM~>) iar <~HEX~>, dear <~HEX~> (<~NUM~>) iar <~HEX~>, dear <~HEX~> (<~NUM~>) iar <~HEX~>, dear <~HEX~> (<~NUM~>) iar <~HEX~>, dear <~HEX~> (<~NUM~>) iar <~HEX~>, dear <~HEX~>",
+        "size": 22175,
+        "is_anomaly": false,
+        "template_id": 528
+    },
+    {
+        "template": "dear <~HEX~> (<~NUM~> RAS KERNEL INFO Kernel detected <~NUM~> integer alignment exceptions (<~NUM~>) iar <~HEX~>, dear <~HEX~> (<~NUM~>) iar <~HEX~>, dear <~HEX~> (<~NUM~>) iar <~HEX~>, dear <~HEX~> (<~NUM~>) iar <~HEX~>, dear <~HEX~> (<~NUM~>) iar <~HEX~>, dear <~HEX~> (<~NUM~>) iar <~HEX~>, dear <~HEX~> (<~NUM~>) iar <~HEX~>, dear <~HEX~> (<~NUM~>) iar <~HEX~>, dear <~HEX~>",
+        "size": 2,
+        "is_anomaly": false,
+        "template_id": 529
+    },
+    {
+        "template": "ciod: Error loading /p/gb1/light3/sppm_chkpt/sppm: not a CNK program image",
+        "size": 1024,
+        "is_anomaly": false,
+        "template_id": 530
+    },
+    {
+        "template": "FATAL ciod: LOGIN chdir(/p/gb1/stella/RAPTOR/<~NUM~>) failed: Input/output error",
+        "size": 816,
+        "is_anomaly": true,
+        "template_id": 531
+    },
+    {
+        "template": "FATAL Error receiving packet on tree network, packet index <~NUM~> greater than max <~NUM~> (softheader=<~SEQ~>) PSR0=<~8NUM~> PSR1=<~NUM~> PRXF=<~NUM~> PIXF=<~NUM~>",
+        "size": 1,
+        "is_anomaly": true,
+        "template_id": 532
+    },
+    {
+        "template": "FATAL rts assertion failed: `vaddr % PAGE_SIZE_1M == <~NUM~>' in `int initializeAppMemory(int, TLBEntry&, unsigned int, unsigned int)' at mmu.cc:<~NUM~>",
+        "size": 1,
+        "is_anomaly": true,
+        "template_id": 533
+    },
+    {
+        "template": "EndServiceAction <~NUM~> performed upon R30-M0-N by bertsch2",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 534
+    },
+    {
+        "template": "ciod: for node <~NUM~>, incomplete data written to core file core.<~NUM~>",
+        "size": 38,
+        "is_anomaly": false,
+        "template_id": 535
+    },
+    {
+        "template": "<~NUM~> torus non-crc error(s) (dcr <~HEX~>) detected and corrected over <~NUM~> seconds",
+        "size": 1,
+        "is_anomaly": false,
+        "template_id": 536
+    }
+]
